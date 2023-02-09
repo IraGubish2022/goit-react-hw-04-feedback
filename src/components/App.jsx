@@ -42,7 +42,9 @@ const App = () => {
   return (
     <div className="App">
       <Section title="Please leave feedback">
-        <FeedbackOptions options={options} onLeaveFeedback={onLeaveFeedback} />
+        <FeedbackOptions 
+        options={options} 
+        onLeaveFeedback={onLeaveFeedback} />
       </Section>
 
       <Section title="Statistics">
